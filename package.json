@@ -14,7 +14,6 @@
   "keywords": [],
   "author": "Ngoran Aristide <ngoranaristide4@gmail.com>",
   "license": "MIT",
-  "type": "module",
  "types": "./dist/index.d.ts",
  "source": "src/index.ts",
  "exports": {
