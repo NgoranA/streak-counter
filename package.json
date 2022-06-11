@@ -1,0 +1,40 @@
+{
+  "version": "0.0.1",
+  "name": "@arise/streak-counter",
+  "description": "This is a streak counter for the browser, inspired by Duolingo written in Typescript (uses `localStorage`).",
+  "scripts": {
+    "build": "microbundle",
+    "dev": "microbundle watch",
+  "test": "NODE_OPTIONS=--experimental-vm-modules jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NgoranA/streak-counter.git"
+  },
+  "keywords": [],
+  "author": "Ngoran Aristide <ngoranaristide4@gmail.com>",
+  "license": "MIT",
+  "type": "module",
+ "types": "./dist/index.d.ts",
+ "source": "src/index.ts",
+ "exports": {
+   "require": "./dist/index.cjs",
+   "default": "./dist/index.modern.js"
+ },
+ "main": "./dist/index.cjs",
+ "module": "./dist/index.module.js",
+ "unpkg": "./dist/index.umd.js",
+  "bugs": {
+    "url": "https://github.com/NgoranA/streak-counter/issues"
+  },
+  "homepage": "https://github.com/NgoranA/streak-counter#readme",
+  "devDependencies": {
+    "@types/jest": "^28.1.1",
+    "@types/jsdom": "^16.2.14",
+    "jest": "^28.1.1",
+    "jsdom": "^19.0.0",
+    "microbundle": "^0.15.0",
+    "ts-jest": "^28.0.4",
+    "typescript": "^4.7.3"
+  }
+}
