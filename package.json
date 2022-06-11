@@ -1,6 +1,6 @@
 {
   "version": "0.0.1",
-  "name": "@arise/streak-counter",
+  "name": "@jsjoeio/streak-counter",
   "description": "This is a streak counter for the browser, inspired by Duolingo written in Typescript (uses `localStorage`).",
   "scripts": {
     "build": "microbundle",
