@@ -15,15 +15,15 @@ yarn add @aristidenf/streak-counter
 ## Usage
 
 ```
-import { streakCounter } from "@jsjoeio/streak-counter";
+import { streakCounter } from "@aristidenf/streak-counter";
 
 const today = new Date();
 const streak = streakCounter(localStorage, today);
 // streak returns an object:
 // {
 //    currentCount: 1,
-//    lastLoginDate: "11/11/2021",
-//    startDate: "11/11/2021",
+//    lastLoginDate: "6/12/2022",
+//    startDate: "6/12/2021",
 // }
 
 ```
