@@ -1,5 +1,5 @@
 {
-  "version": "0.0.1",
+  "version": "0.0.2",
   "name": "@aristidenf/streak-counter",
   "description": "This is a streak counter for the browser, inspired by Duolingo written in Typescript (uses `localStorage`).",
   "scripts": {
