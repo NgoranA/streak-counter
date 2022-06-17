@@ -1,21 +1,21 @@
-# `@arisnf/streak-counter` - basic streak counter
+# `@aristidenf/streak-counter` - basic streak counter
 
 This is a streak counter for the browser, inspired by Duolingo written in Typescript (uses `localStorage`).
 
 ## Install
 
 ```shell
-npm install @arisnf/streak-counter
+npm install @aristidenf/streak-counter
 ```
 
 ```shell
-yarn add @arisnf/streak-counter
+yarn add @aristidenf/streak-counter
 ```
 
 ## Usage
 
 ```
-import { streakCounter } from "@arisnf/streak-counter";
+import { streakCounter } from "@aristidenf/streak-counter";
 
 const today = new Date();
 const streak = streakCounter(localStorage, today);
